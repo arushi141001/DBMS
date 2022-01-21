@@ -1,0 +1,33 @@
+\documentclass[10pt,a4paper,twoside]{article}
+\usepackage[dutch]{babel}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{float,flafter}	
+\usepackage{hyperref}
+\usepackage{inputenc}
+\setlength\paperwidth{20.999cm}\setlength\paperheight{29.699cm}\setlength\voffset{-1in}\setlength\hoffset{-1in}\setlength\topmargin{1cm}\setlength\headheight{12pt}\setlength\headsep{0cm}\setlength\footskip{1.131cm}\setlength\textheight{25cm}\setlength\oddsidemargin{2.499cm}\setlength\textwidth{15.999cm}
+
+\begin{document}
+\begin{center}
+\hrule
+
+\vspace{.4cm}
+{\bf {\Large TERM PAPER}}\\
+\vspace{.4cm}
+{\bf {\huge Organ donation sytem using DBMS}
+\vspace{.5cm}
+\end{center}
+{\bf Name:}  Arushi Chaturvedi\\
+{\bf Roll no:}  19111013 \\
+{\bf Branch: }  Biomedical Engineering \hspace{\fill}  11 Nov, 2021 \\
+\hrule
+
+\vspace{.5cm}
+\section{Abstract}
+Organ Transplantation is a medical procedure in which an organ is removed one body and placed in the body of a recipient, to replace a damaged or missing organ.The donor and recipient may be at same location or another location.
+\par
+A database management system (or DBMS) is essentially nothing more than a computerized data-keeping system. Users of the system are given facilities to perform several kinds of operations on such a system for either manipulation of the data in the database or the management of the database structure itself.
+Using MySQL
+
+his Application acts as an essential role in saving the livesof humanbeingsandwhichisalsoitsmainaimistohelp theusertoget the required blood and organs at the correct time. And it is a mobile-based Application developed in the android platform. This Android application provides an easy and fast way to search for blood and organs. This app enables users to find blood and organs in emergency situations. Users need to register with the Application which is available on the app. And also, theycan get brief information on the donor’s contact details includes their location. The user can Contact them By making a call or message directly by using this BIO-Donation Application. The Objective of this Mobile Application is to design an Android Application to maintain necessary information of the Patients, Donors, and report details for any bio-related organization. Project Android Blood Bank Management system was developed so that users can view the information about registered Bio donors such as Name, Address, and other such personal details along with their details of blood group and other Medical Details of the donor. This Mobile Application also has a login page where the user is required to register and only then they can view the availability of blood and organ, and even register to donate blood if he/she wishes to. The main aim of developing this Android Application is to reduce the time to a great extent to avoid spending time in searching for the right donor and the availability of blood and organ required
+\end{document}
