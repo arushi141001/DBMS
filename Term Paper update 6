@@ -1,0 +1,121 @@
+\documentclass[10pt,a4paper,twoside]{article}
+\usepackage[dutch]{babel}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{float,flafter}	
+\usepackage{hyperref}
+\usepackage{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\setlength\paperwidth{20.999cm}\setlength\paperheight{29.699cm}\setlength\voffset{-1in}\setlength\hoffset{-1in}\setlength\topmargin{1cm}\setlength\headheight{12pt}\setlength\headsep{0cm}\setlength\footskip{1.131cm}\setlength\textheight{25cm}\setlength\oddsidemargin{2.499cm}\setlength\textwidth{15.999cm}
+
+\begin{document}
+\begin{center}
+\hrule
+
+\vspace{.4cm}
+{\bf {\Large TERM PAPER}}\\
+\vspace{.4cm}
+{\bf {\huge Organ donation sytem using DBMS}
+\vspace{.5cm}
+\end{center}
+{\bf Name:}  Arushi Chaturvedi\\
+{\bf Roll no:}  19111013 \\
+{\bf Branch: }  Biomedical Engineering \hspace{\fill}  11 Nov, 2021 \\
+\hrule
+
+\vspace{.5cm}
+\section{Abstract}
+Organ Transplantation is a medical procedure in which an organ is removed one body and placed in the body of a recipient, to replace a damaged or missing organ.The donor and recipient may be at same location or another location.
+\par
+A database management system (or DBMS) is essentially nothing more than a computerized data-keeping system. Users of the system are given facilities to perform several kinds of operations on such a system for either manipulation of the data in the database or the management of the database structure itself.
+Using MySQL
+
+his Application acts as an essential role in saving the livesof humanbeingsandwhichisalsoitsmainaimistohelp theusertoget the required blood and organs at the correct time. And it is a mobile-based Application developed in the android platform. This Android application provides an easy and fast way to search for blood and organs. This app enables users to find blood and organs in emergency situations. Users need to register with the Application which is available on the app. And also, theycan get brief information on the donor’s contact details includes their location. The user can Contact them By making a call or message directly by using this BIO-Donation Application. The Objective of this Mobile Application is to design an Android Application to maintain necessary information of the Patients, Donors, and report details for any bio-related organization. Project Android Blood Bank Management system was developed so that users can view the information about registered Bio donors such as Name, Address, and other such personal details along with their details of blood group and other Medical Details of the donor. This Mobile Application also has a login page where the user is required to register and only then they can view the availability of blood and organ, and even register to donate blood if he/she wishes to. The main aim of developing this Android Application is to reduce the time to a great extent to avoid spending time in searching for the right donor and the availability of blood and organ required
+\section{Introduction}
+\par
+The real scenario is: When  transplant hospitals accept patients  onto the waiting list, the patients  are registered in a  centralized, national computer database,  and introduced into the network that links all donors and transplant candidates.  After removal, a donor organ has to be transplanted within a few hours. A smooth running organization is of life-saving importance. Therefore the central office is manned by specially trained staff, 24 hours a day, and 7 days a week, supported by the computer information system. In the area  of health  and medicine, a number of modern applications  and databases can  be  found.  
+\par
+In  the  need  of  new,  modern  technologies  introduction  in  Serbia,  the professional team made the project and the final product. The idea for this computer information system is more than 5 years old. A completely new approach was introduced: The accent is on the security with modern methods applied according  to  the  multi-decade  experiences  in  various  western  countries  and  their automated and centralized computer information systems.  Also, the  idea was to prevent  the potential of  malpractice and  misuse, the criminal activities,  and  implement  modern  electronic  data  security  systems  with  exact  human procedures in maintaining the whole system. There  are several  levels of  security and  cryptography applied.  Strong mathematics together with a constant database backup and encryption are the basic principles of this new idea. As shown on the next page in Fig. 1, the key and encryption are in the center, the main waiting list in a database with a backup is always accessible from all over the world. Mobile  devices, like  PDA‟s  and  Android  mobile phones  are  also  supported  in  our system, following the technology development. 
+
+\par
+In this case also, electronic data security and valid patient and donor data are in the first place. Database table optimization was also an important segment regarding the number of records and their availability, all a part of the database design and planning. The  modern  computer  information  system,  as  a  final  product,  consists  of  a  well organized  database,  web  application,  and  a  special  protection  and  security.  Also, additional decision-making mathematics is added. The main task was that the process of registering and  deciding,  must be  transparent and  on a  public world  network,  such as internet. The authentication of authorized personnel has to be very strong together with the encryption of  communication and data  transmitted. The  exchanged data have to  be protected because of the large number of persons involved in cybercrime on illegal organ market, and data altering and counterfeiting.
+
+\par
+The benefit from this system is not only in the area of transplantation. There are long-term effects that are expected from developing and advancing the SETNET information system and that are contributing to the development of health care as well as of the whole society. They are: 
+\par 
+ System  monitoring  and  regulation  of  the  process  of  information  exchange,  to protect the rights and privacy of patients and increase the quality and the efficiency in the delivery of health services. 
+\par  Potential  for a  secondary  use of  data  in  an  aggregated  form  for  decision-making, improved  practice  and  scientific  research,  as  well  as  ensuring  the  openness  and transparency of derivative information related to the performance of the health care. 
+\par  Meaningfulness, quality and usefulness of the information gathered, their storage, use and publication in a standardized way. This will provide continuity of care and improve  the management of  chronic health  conditions, the  outcome of  hospital care, and pharmaceutical management.
+\par  Increasing  the  security  of  the  patients‟  data  and  organ  matching  process  with decreasing the financial costs together with improving the cost objectivity.
+
+
+
+
+
+
+
+
+\par
+ER Analysis: Identifying Entity Sets and Relationship Sets:
+\par Entity Sets:
+\par1. User
+\par1. User ID
+\par2. Name
+\par3. Date of birth
+\par4. Phone Number (multi-valued)
+\par5. Medical Insurance
+\par6. Medical History
+\par7. Address
+\par2. Patient
+\par1. Patient_ID
+\par2. Organ Required
+\par3. Reason of procurement
+\par4. User_ID ( foreign key)
+\par3. Donor
+\par1. Donor_ID
+\par2. Organ Donated
+\par3. Reason of donation
+\par4. User_ID (foreign key)
+\par4. Organ Available
+\par1. Organ_ID
+\par2. Organ Name
+\par3. Donor_ID (foreign key)
+\par5. Organization
+\par1. Organization ID
+\par2. Organization Name
+\par3. Location
+\par4. Government approved organization or not
+\par5. Phone Number (multi-valued)
+\par6. Doctor
+\par1. Doctor ID
+\par2. Doctor Name
+\par3. Phone Number (multi-valued)
+\par7. Organization Head
+\par1. Head Name
+\par2. Date of Joining
+\par3. Term Length
+\par Relationship Sets:
+\par1. Donates – The act of donation of an organ from a donor 1. Date – Date of donation
+\par2. Procures - The act of procuring an organ by the patient
+\par3. Transaction
+\par1. Date of transaction
+\par2. Status – whether the surgery was successful or not
+\par4. Organ Donated -The organ donated by an donor, which is then stored in Organ_available
+table.
+\par5. Attended By -The transplantation performed by doctor – procuring an organ from a donor
+and transplanting it to the patient by surgery.
+\par6. Registers - Donor is registered in which organization
+\par7. Works in – The organization where the doctor works.
+\par8. Headed By – The organization is headed by which person
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=4cm]{InsertingImagesEx5}
+    \caption{ER}
+    \label{fig:ER.png}
+\end{figure}
+
+
+\end{document}
